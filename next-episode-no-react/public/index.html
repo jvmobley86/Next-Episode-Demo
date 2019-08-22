@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Next Episode</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" target="_blank">
+                <strong>Next Episode</strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Left -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" target="_blank">About Next Episode</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right -->
+                <ul class="navbar-nav nav-flex-icons">
+
+                    <li class="nav-item">
+                        <div class="sm-form">
+                            <i class="fas fa-user prefix grey-text"></i>
+                            <input type="text" id="usernameLogin" class="form-control" placeholder="email">
+                            <label for="form3"></label>
+                        </div>
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <div class="sm-form">
+                            <i class="fas fa-user prefix grey-text"></i>
+                            <input type="password" id="loginPassword" class="form-control" placeholder="Password">
+                            <label for="form3"></label>
+                        </div>
+                    </li>
+
+                    <div class="text-center">
+                        <button id="loginButton" class="btn btn-unique">Login</button>
+                    </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Full Page Intro -->
+    <div class="view full-page-intro"
+        style="background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/MPaEbz-/videoblocks-zoom-in-of-multi-ethnic-group-of-friends-celebrating-victory-of-their-team-they-yelling-clapping-hands-and-whistling-while-sitting-in-living-room-and-watching-tv-match_rvb1qqnqx_thumbnail-full01.png'); background-repeat: no-repeat; background-size: cover;">
+
+        <!-- Mask & flexbox options-->
+        <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="container">
+
+                <!--Grid row-->
+                <div class="row wow fadeIn">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 mb-4 white-text text-center text-md-left">
+
+                        <h1 class="display-4 font-weight-bold">Next Episode</h1>
+
+                        <hr class="hr-light">
+
+                        <p id="question">
+                            <strong>How many times have you asked, "when does that show come back on?"</strong>
+                        </p>
+
+                        <p id="question" class="mb-4 d-none d-md-block">
+                            <strong>Let us keep track of your favorite shows and show you the date of the next
+                                episode.</strong>
+                        </p>
+
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6 col-xl-5 mb-4">
+
+                        <!--Card-->
+                        <div class="card">
+
+                            <!--Card content-->
+                            <div class="card-body">
+
+                                <!-- Form -->
+                                <form name="">
+                                    <!-- Heading -->
+                                    <h3 class="dark-grey-text text-center">
+                                        <strong>Sign-Up</strong>
+                                    </h3>
+                                    <hr>
+
+                                    <div class="md-form">
+                                        <i class="fas fa-user prefix grey-text"></i>
+                                        <input type="text" id="userNameSignUp" class="form-control"
+                                            placeholder="Choose a Username">
+                                        <label for="form3"></label>
+                                    </div>
+                                    <div class="md-form">
+                                        <i class="fas fa-envelope prefix grey-text"></i>
+                                        <input type="text" id="email" class="form-control" placeholder="E-mail Address">
+                                        <label for="form2"></label>
+                                    </div>
+                                    <div class="md-form">
+                                        <i class="fas fa-envelope prefix grey-text"></i>
+                                        <input type="password" id="passwordSignUp" class="form-control"
+                                            placeholder="Password">
+                                        <label for="form2"></label>
+                                    </div>
+
+
+                                    <div class="text-center">
+                                        <button id="signUpButton" class="btn btn-unique">Submit</button>
+                                        <hr>
+                                    </div>
+
+                                </form>
+                                <!-- Form -->
+
+                            </div>
+
+                        </div>
+                        <!--/.Card-->
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+            </div>
+            <!-- Content -->
+
+        </div>
+        <!-- Mask & flexbox options-->
+
+    </div>
+
+
+    <script type="text/javascript"></script>
+</body>
+
+</html>

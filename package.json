@@ -1,0 +1,24 @@
+{
+  "name": "Next-Episode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooke1617/Next-Episode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brooke1617/Next-Episode/issues"
+  },
+  "homepage": "https://github.com/brooke1617/Next-Episode#readme",
+  "dependencies": {
+    "mdbreact": "^4.19.0"
+  }
+}

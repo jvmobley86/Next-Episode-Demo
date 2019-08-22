@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="dashboard.js"></script>
+
+    <title>Dashboard</title>
+</head>
+
+<body id="body">
+    <!--Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg navbar-purple darken-4">
+        <a class="navbar-brand" id="welcome" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+            aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item avatar">
+                    <a class="nav-link p-0" href="#">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg"
+                            class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class=container>
+        <div class="input-group md-form form-sm form-2 pl-0">
+            <input id="showSearch" class="form-control my-0 py-1 transparent-border" type="text"
+                placeholder="Search for your show" aria-label="Search">
+            <div class="input-group-append">
+                <span class="input-group-text white lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                        aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <button id="add" type="button" class="btn btn-unique">+ ADD SHOW</button>
+        <br>
+        <br>
+        <br>
+        <h1 strong>Your Favorite shows up Next:</h1>
+        <div id="upcoming">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <!-- The scope attribute specifies that this is a header for a column -->
+                        <th scope="col">Show Name</th>
+                        <th scope="col">Season</th>
+                        <th scope="col">Episode #</th>
+                        <th scope="col">Episode Title</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <!-- <div id="card">
+                <div className="content">
+                    <ul>
+                        <li id="image">
+                            <strong>Pic</strong>
+                        </li>
+                        <li id="name">
+                            <strong>Name:</strong>
+                        </li>
+                        <li id="occupation">
+                            <strong>Season:</strong>
+                        </li>
+                        <li id="location">
+                            <strong>Episode:</strong>
+                        </li>
+                        <li id="title">
+                            <strong>Episode Title:</strong>
+                        </li>
+                        <li id="date">
+                            <strong>Date:</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!--/.Navbar -->
+    <script type="text/javascript"></script>
+</body>
+
+</html>
