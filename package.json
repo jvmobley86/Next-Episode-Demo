@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brooke1617/Next-Episode.git"
+    "url": "git+https://github.com/jvmobley86/Next-Episode-Demo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brooke1617/Next-Episode/issues"
+    "url": "https://github.com/jvmobley86/Next-Episode-Demo/issues"
   },
-  "homepage": "https://github.com/brooke1617/Next-Episode#readme",
+  "homepage": "https://github.com/jvmobley86/Next-Episode-Demo/",
   "dependencies": {
     "express": "^4.17.1",
     "mdbreact": "^4.19.0",
